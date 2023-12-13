@@ -1,4 +1,4 @@
-import { Avatar, Flex, Group, Text, UnstyledButton } from '@mantine/core';
+import { Avatar, Flex, Text, UnstyledButton } from '@mantine/core';
 import React from 'react';
 
 export function UserCard() {
@@ -6,7 +6,7 @@ export function UserCard() {
     <UnstyledButton>
       <Flex align="center" gap="sm">
         <Flex direction="column" align="flex-end">
-          <Text size="sm" c="indigo" fw="bolder">
+          <Text size="sm" fw="bolder">
             John Doe
           </Text>
           <Text size="xs" c="gray.6">

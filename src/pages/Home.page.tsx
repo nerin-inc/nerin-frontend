@@ -7,9 +7,9 @@ export function HomePage() {
     document.title = 'Home';
   });
   return (
-    <>
+    <div style={{ height: '2000px', margin: 'auto' }}>
       <Welcome />
       <ColorSchemeToggle />
-    </>
+    </div>
   );
 }
